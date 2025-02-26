@@ -1,0 +1,49 @@
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+\fontdir[assets/fonts/]
+
+\colorlet{awesome}{awesome-skyblue}
+\definecolor{awesome}{HTML}{221266}
+
+\setbool{acvSectionColorHighlight}{true}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\name{Felipe F. B. Silva}{}
+% \position{Back end Developer \& Designer}
+
+\address{João Pessoa - PB}
+\mobile{(83) 9 9603-9682}
+\email{felipeffbs3x@gmail.com}
+
+% \homepage{}
+\github{felipefbs}
+\linkedin{felipefbs}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[L]
+
+\makecvfooter
+{2025}
+{Felipe F. B. Silva ~~~·~~~ Currículo}
+{\thepage}
+
+\input{sections/summary_english.tex}
+\input{sections/skills_english.tex}
+\input{sections/experience_english.tex}
+\input{sections/education_english.tex}
+\input{sections/languages_english.tex}
+\input{sections/projects_simplified_english.tex}
+% \input{sections/projects.tex}
+% \input{sections/alwards.tex}
+
+\end{document}
